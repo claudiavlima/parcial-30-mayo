@@ -1,40 +1,120 @@
-header h1{
-float:left;
-margin: 5px;
-font-size: 45px;
-
+body {
+	font-family: Arial, Verdana, Times;
 }
 
-#footer > .inner {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			-moz-flex-wrap: wrap;
-			-webkit-flex-wrap: wrap;
-			-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
-			-moz-flex-direction: row;
-			-webkit-flex-direction: row;
-			-ms-flex-direction: row;
-			flex-direction: row;
-		}
+header {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
 
-		.box {
-		  position: relative;
-		  width: 23vw;
-		  height: 20vh;
-		  float: left;
-		  margin-left: 5vw;
-		  margin-top: 5vh;
-		  margin-bottom: 5vh;
-		  padding-top: 8vw;
-		  border-width: 2px 2px;
-		  border-radius: 4px 4px;
-		}
+header h1 {
+	float: left;
+	font-size: 32px;
+}
 
-		.box:hover {
-		  width: 30vw;
-		  height: 24vh;
-		  background-color: #999;
-		}
+header h2 {
+	font-size: 24px;
+	margin-left: 5vw;
+	margin-top: 2vw;
+}
+
+
+
+header img {
+	float: left;
+	width: 5vw;
+	height: 5vh;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.main {
+	  margin: 2vh 5vw 12vh 5vw;
+}
+
+.boxes {
+	width: 323px;
+	height: 170px;
+	text-align: center;
+	padding-top: 20vh;
+margin-bottom: 7vh;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.boxes:hover {
+	opacity: 0.77;
+}
+
+	#style1 {
+				background: url(img/pic01.jpg) no-repeat top center rgb(0, 255, 0);
+
+	}
+	#style1 span {
+
+	}
+
+	#style2 {
+		background-color: #100;
+	}
+	#style3 {
+		background-color: #070;
+	}
+	#style4 {
+		background-color: #077;
+	}
+	#style5 {
+		background-color: #005;
+	}
+	#style6 {
+		background-color: #111;
+	}
+	#style7 {
+		background-color: #157;
+	}
+	#style8 {
+		background-color: #412;
+	}
+	#style9 {
+		background-color: #f73;
+	}
+	#style10 {
+		background-color: #abc;
+	}
+	#style11 {
+		background-color: #d11;
+	}
+	#style12 {
+		background-color: #00f;
+	}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+padding: 5vh 5vw 5vh 5vw;
+}
+
+	.contact {
+		flex-grow: 1;
+		width: 400px;
+	}
+
+	.follow {
+		display: flex;
+		flex-wrap: wrap;
+		flex-grow: 1;
+		width: 200px;
+	}
+
+	.icon {
+		
+	}
